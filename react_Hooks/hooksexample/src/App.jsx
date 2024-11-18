@@ -54,7 +54,7 @@ function App() {
   const count = useRef(10);
 
   useEffect(() => {
-    count.current = count.current + 1;
+    count.current = count.current + 2;
   });
 
   return (
